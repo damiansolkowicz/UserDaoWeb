@@ -30,6 +30,6 @@ public class UserAdd extends HttpServlet {
         user.setPassword(userPassword);
         userDao.create(user);
 
-        resp.sendRedirect(req.getContextPath() + "list");
+        resp.sendRedirect(req.getContextPath() +  "/user/list");
     }
 }
