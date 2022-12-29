@@ -19,6 +19,7 @@
       <div class="table-responsive">
 
         <form  method="post">
+          <input type="hidden" name="id" value="${user.id}"/>
 
           <label for="userName">Nazwa</label>
           <input name="userName" type="text" class="form-control" id="userName" placeholder="Nazwa użytkownika">
